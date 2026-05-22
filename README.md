@@ -4,14 +4,9 @@
 To design and deploy a prototype application for image captioning by utilizing the BLIP image-captioning model and integrating it with the Gradio UI framework for user interaction and evaluation.
 
 ### PROBLEM STATEMENT:
+Manual generation of descriptive text for digital images is resource-intensive and subjective, while standard computer vision pipelines often fail to capture complex contextual nuances, resulting in incomplete descriptions. Furthermore, state-of-the-art machine learning models typically remain confined to technical environments, lacking intuitive interfaces for non-technical users.
 
-Manual generation of descriptive text for digital images is highly time-consuming, resource-intensive, and prone to human subjectivity. While automated solutions exist, they frequently encounter two primary challenges:
-
-Accuracy and Contextual Awareness: Standard computer vision pipelines often fail to capture complex spatial relationships and contextual nuances within an image, resulting in rigid, literal, or incomplete descriptions.
-
-Accessibility and Usability: State-of-the-art machine learning models typically remain confined to technical environments, lacking intuitive interfaces that allow non-technical end users to easily upload images and view real-time text outputs.
-
-To address these limitations, this project aims to develop and deploy an intelligent, end-to-end prototype application. By utilizing the pre-trained BLIP (Bootstrapping Language-Image Pre-training) model via an automated Inference Endpoint, the system will reliably generate accurate, context-aware image captions. Furthermore, the model will be seamlessly integrated with the Gradio UI framework, providing a streamlined, web-accessible interface for instantaneous user interaction and model evaluation.
+To address these limitations, this project focuses on developing and deploying an end-to-end prototype application. By utilizing the pre-trained BLIP (Bootstrapping Language-Image Pre-training) model via an automated Inference Endpoint, the system will reliably generate accurate, context-aware image captions. This backend is seamlessly integrated with the Gradio UI framework, providing a streamlined, web-accessible interface for instantaneous user interaction and model evaluation.
 
 ### DESIGN STEPS:
 
