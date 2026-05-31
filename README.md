@@ -100,4 +100,4 @@ demo.launch(share=True, server_port=int(os.environ["PORT1"]))
 
 ### RESULT:
 
-Thus the program has been executed successfully.
+The prototype application has been successfully designed, configured, and launched. The web application establishes an open socket, creates a secure local hosting connection, and generates a valid public URL (share=True). The BLIP vision network correctly parses structural image data and prints context-aware natural language descriptions inside the Gradio interface text field.
